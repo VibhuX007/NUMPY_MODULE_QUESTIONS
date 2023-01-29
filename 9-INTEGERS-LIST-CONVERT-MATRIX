@@ -1,0 +1,5 @@
+#YOU ARE GIVEN A SPACE SEPARATED LIST OF NINE INTEGERS. YOUR TASK IS TO CONVERT THE LIST INTO 3X3 MATRIX.
+import numpy
+arr = list(map(int, input().split()))
+a = (numpy.array(arr)).reshape(3,3)
+print(a)
